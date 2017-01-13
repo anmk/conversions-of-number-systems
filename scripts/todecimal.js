@@ -42,10 +42,10 @@ NumberSystems.prototype.toDecimal = function() {
         formatedInputString += " ";
       }
     }
-    console.log(this._info + " input string: " + formatedInputString);
+    console.log(this._info + " input: " + formatedInputString);
   
   } else {
-    console.log(this._info + " input string: " + inputString);
+    console.log(this._info + " input: " + inputString);
   }
 
   inputArray.reverse();
