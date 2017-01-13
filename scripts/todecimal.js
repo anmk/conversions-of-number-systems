@@ -1,5 +1,5 @@
 /* ==================================================================================== 
- *  Conversion of number systems
+ *  Conversions of number systems
  *  Author: Andrzej Kałowski
  *  $id: todecimal.js
  *  ===================================================================================
