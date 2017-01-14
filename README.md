@@ -6,30 +6,35 @@ Scripts allow you to convert each other number systems: binary (2), octal (8), d
 Conversion scheme:
 
 file todecimal.js:
+
  conversion from | conversion to
------------------|---------------
+---------------- | --------------
  binary      ->  |              
  octal       ->  | `toDecimal`  
  hexadecimal ->  |              
 
 file tobinary.js:
+
  conversion from | conversion to
------------------|---------------
+---------------- | --------------
  octal       ->  |              
  hexadecimal ->  | `toBinary`   
 
 file fromdecimal.js:
+
  conversion from | conversion to 
------------------|---------------
+---------------- | --------------
                  | -> binary     
  `fromDecimal`   | -> octal      
                  | -> hexadecimal
 
 file frombinary.js:
+
  conversion from | conversion to 
------------------|---------------
+---------------- | --------------
                  | -> octal      
  `fromBinary`    | -> hexadecimal
+ 
 ---
 
 ## Usage
