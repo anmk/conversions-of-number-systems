@@ -3,9 +3,9 @@
 ## Introduction
 Scripts allow you to convert each other number systems: binary (2), octal (8), decimal (10), hexadecimal (16).
 
-Conversion scheme:
+**Conversion scheme:**
 
-file todecimal.js:
+`file todecimal.js`:
 
  conversion from | conversion to
 ---------------- | --------------
@@ -13,14 +13,14 @@ file todecimal.js:
  octal       ->  | `toDecimal`  
  hexadecimal ->  |              
 
-file tobinary.js:
+`file tobinary.js`:
 
  conversion from | conversion to
 ---------------- | --------------
  octal       ->  |              
  hexadecimal ->  | `toBinary`   
 
-file fromdecimal.js:
+`file fromdecimal.js`:
 
  conversion from | conversion to 
 ---------------- | --------------
@@ -28,21 +28,21 @@ file fromdecimal.js:
  `fromDecimal`   | -> octal      
                  | -> hexadecimal
 
-file frombinary.js:
+`file frombinary.js`:
 
  conversion from | conversion to 
 ---------------- | --------------
                  | -> octal      
  `fromBinary`    | -> hexadecimal
- 
----
+
+
 
 ## Usage
+
 To start the console browser, press F12 (for Google Chrome, Mozilla Firefox and Microsoft Edge).
----
 
+**Number systems - toDecimal**
 
-*`Number systems - toDecimal`*
 Using in the console browser:
 ```
 fromHexadecimal1.toDecimal()
@@ -57,4 +57,5 @@ var octal = '72175641';
 var hexadecimal = '1A4C03F2';
 ```
 In order to convert other values, substitute them into the above variables.
----
+
+![todecimal](https://cloud.githubusercontent.com/assets/5839775/21956182/58089c10-da7b-11e6-837f-fad6a14916b6.jpg)
