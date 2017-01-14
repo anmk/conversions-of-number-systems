@@ -58,7 +58,27 @@ var hexadecimal = '1A4C03F2';
 ```
 In order to convert other values, substitute them into the above variables.
 
-You can see how it works:
+You can see how it works (press F12):
 http://projects.kalowski.com/cons/todecimal.html
 
 ![todecimal](https://cloud.githubusercontent.com/assets/5839775/21956182/58089c10-da7b-11e6-837f-fad6a14916b6.jpg)
+
+### toBinary
+
+Using in the console browser:
+```
+fromHexadecimal1.toBinary()
+fromOctal1.toBinary()
+```
+
+Examples used in the script:
+```javascript
+var octal = '72175641';
+var hexadecimal = '1A4C03F2';
+```
+In order to convert other values, substitute them into the above variables.
+
+You can see how it works (press F12):
+http://projects.kalowski.com/cons/tobinary.html
+
+![tobinary](https://cloud.githubusercontent.com/assets/5839775/21956401/1b1c42de-da80-11e6-9420-8035f73f5c23.jpg)
