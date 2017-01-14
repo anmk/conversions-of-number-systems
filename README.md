@@ -81,4 +81,4 @@ In order to convert other values, substitute them into the above variables.
 You can see how it works (press F12):
 http://projects.kalowski.com/cons/tobinary.html
 
-![tobinary](https://cloud.githubusercontent.com/assets/5839775/21956401/1b1c42de-da80-11e6-9420-8035f73f5c23.jpg)
+![tobinary](https://cloud.githubusercontent.com/assets/5839775/21956545/0b3861f0-da84-11e6-9ce8-be7faacc3919.jpg)
