@@ -41,7 +41,7 @@ Scripts allow you to convert each other number systems: binary (2), octal (8), d
 
 To start the console browser, press F12 (for Google Chrome, Mozilla Firefox and Microsoft Edge).
 
-**Number systems - toDecimal**
+### toDecimal
 
 Using in the console browser:
 ```
@@ -57,5 +57,8 @@ var octal = '72175641';
 var hexadecimal = '1A4C03F2';
 ```
 In order to convert other values, substitute them into the above variables.
+
+You can see how it works:
+http://projects.kalowski.com/cons/todecimal.html
 
 ![todecimal](https://cloud.githubusercontent.com/assets/5839775/21956182/58089c10-da7b-11e6-837f-fad6a14916b6.jpg)
