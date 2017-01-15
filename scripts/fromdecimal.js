@@ -3,7 +3,7 @@
  *  Author: Andrzej Kałowski
  *  $id: fromdecimal.js
  *  ===================================================================================
- *  Użycie w konsoli przeglądarki:
+ *  Using in the console browser:
  *  toHexadecimal1.fromDecimal()
  *  toOctal1.fromDecimal()
  *  toBinary1.fromDecimal()
