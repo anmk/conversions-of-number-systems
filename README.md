@@ -3,9 +3,9 @@
 ## Introduction
 Scripts allow you to convert each other number systems: binary (2), octal (8), decimal (10), hexadecimal (16).
 
-**Conversion scheme:**
+### Conversion scheme:
 
-`file todecimal.js`:
+ file `todecimal.js`:
 
  conversion from | conversion to
 ---------------- | --------------
@@ -13,14 +13,14 @@ Scripts allow you to convert each other number systems: binary (2), octal (8), d
  octal       ->  | `toDecimal`  
  hexadecimal ->  |              
 
-`file tobinary.js`:
+ file `tobinary.js`:
 
  conversion from | conversion to
 ---------------- | --------------
  octal       ->  |              
  hexadecimal ->  | `toBinary`   
 
-`file fromdecimal.js`:
+ file `fromdecimal.js`:
 
  conversion from | conversion to 
 ---------------- | --------------
@@ -28,7 +28,7 @@ Scripts allow you to convert each other number systems: binary (2), octal (8), d
  `fromDecimal`   | -> octal      
                  | -> hexadecimal
 
-`file frombinary.js`:
+ file `frombinary.js`:
 
  conversion from | conversion to 
 ---------------- | --------------
@@ -82,3 +82,23 @@ You can see how it works (press F12):
 http://projects.kalowski.com/cons/tobinary.html
 
 ![tobinary](https://cloud.githubusercontent.com/assets/5839775/21956545/0b3861f0-da84-11e6-9ce8-be7faacc3919.jpg)
+
+### fromDecimal
+
+Using in the console browser:
+```
+toHexadecimal1.fromDecimal()
+toOctal1.fromDecimal()
+toBinary1.fromDecimal()
+```
+
+Example used in the script:
+```javascript
+var decimal = '823456789';
+```
+In order to convert a different value, substitute it for the above variable.
+
+You can see how it works (press F12):
+http://projects.kalowski.com/cons/fromdecimal.html
+
+![fromdecimal](https://cloud.githubusercontent.com/assets/5839775/21956747/c18deada-da87-11e6-94b6-6635162bcbdb.jpg)
