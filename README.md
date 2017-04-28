@@ -24,16 +24,16 @@ Scripts allow you to convert each other number systems: binary (2), octal (8), d
 
  conversion from | conversion to 
 ---------------- | --------------
-      decimal    | -> binary     
-      decimal    | -> octal      
-      decimal    | -> hexadecimal
+ decimal         | -> binary     
+ decimal         | -> octal      
+ decimal         | -> hexadecimal
 
  file `frombinary.js`:
 
  conversion from | conversion to 
 ---------------- | --------------
-      binary     | -> octal      
-      binary     | -> hexadecimal
+ binary          | -> octal      
+ binary          | -> hexadecimal
 
 
 
