@@ -33,8 +33,8 @@ This script expands capabilities fromBinary.js file. Additional functionality is
 ---------------- | --------------
   binary ->      | -> octal      
   binary ->      | -> hexadecimal
-  binary ->      | -> decimal    :warning: 
-                 | **(Additionally - dublicate of binary -> toDecimal - as in the `todecimal.js` file)**
+  binary ->      | -> decimal :warning: 
+  The above line  **(Additionally - dublicate of binary -> toDecimal - as in the `todecimal.js` file)**
 
 ## Usage
 
