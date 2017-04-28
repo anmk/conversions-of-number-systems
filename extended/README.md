@@ -34,7 +34,7 @@ This script expands capabilities fromBinary.js file. Additional functionality is
   binary ->      | -> octal      
   binary ->      | -> hexadecimal
   binary ->      | -> decimal    :warning: 
-  **(additonal - duplicate of binary -> toDecimal - file `todecimal.js`)**
+                 | **(Additionally - dublicate of binary -> toDecimal - as in the `todecimal.js` file)**
 
 ## Usage
 
