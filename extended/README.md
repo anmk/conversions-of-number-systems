@@ -8,32 +8,32 @@ This script expands capabilities fromBinary.js file. Additional functionality is
 
  conversion from | conversion to
 ---------------- | --------------
- binary      ->  |              
- octal       ->  | `toDecimal`  
- hexadecimal ->  |              
+ binary      ->  |  -> decimal               
+ octal       ->  |  -> decimal  
+ hexadecimal ->  |  -> decimal               
 
  file `tobinary.js`:
 
  conversion from | conversion to
 ---------------- | --------------
- octal       ->  |              
- hexadecimal ->  | `toBinary`   
+ octal       ->  |  -> binary              
+ hexadecimal ->  |  -> binary   
 
  file `fromdecimal.js`:
 
  conversion from | conversion to 
 ---------------- | --------------
-                 | -> binary     
- `fromDecimal`   | -> octal      
-                 | -> hexadecimal
+  decimal ->     | -> binary     
+  decimal ->     | -> octal      
+  decimal ->     | -> hexadecimal
 
  file `frombinary.js`:
 
  conversion from | conversion to 
 ---------------- | --------------
-                 | -> octal      
- `fromBinary`    | -> hexadecimal
-                 | -> decimal    :warning: **(additonal - duplicate of binary -> toDecimal)**
+  binary ->      | -> octal      
+  binary ->      | -> hexadecimal
+  binary ->      | -> decimal    :warning: **(additonal - duplicate of binary -> toDecimal)**
 
 ## Usage
 
