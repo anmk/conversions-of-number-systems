@@ -25,7 +25,7 @@ Scripts allow you to convert each other number systems: binary (2), octal (8), d
  conversion from | conversion to 
 ---------------- | --------------
                  | -> binary     
- `fromDecimal`   | -> octal      
+  fromDecimal    | -> octal      
                  | -> hexadecimal
 
  file `frombinary.js`:
@@ -33,7 +33,7 @@ Scripts allow you to convert each other number systems: binary (2), octal (8), d
  conversion from | conversion to 
 ---------------- | --------------
                  | -> octal      
- `fromBinary`    | -> hexadecimal
+  fromBinary     | -> hexadecimal
 
 
 
