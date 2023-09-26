@@ -1,5 +1,5 @@
 # Conversions of number systems
-
+![GitHub repo size](https://img.shields.io/github/repo-size/anmk/conversions-of-number-systems?style=plastic)
 ## Introduction
 Scripts allow you to convert each other number systems: binary (2), octal (8), decimal (10), hexadecimal (16).
 
